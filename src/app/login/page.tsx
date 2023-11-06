@@ -15,7 +15,7 @@ import { AiOutlineClose } from "react-icons/ai";
 
 type Props = {};
 
-const page = (props: Props) => {
+const Page = (props: Props) => {
   const [showPopUP, setPopUP] = useState(false);
 
   useEffect(() => {
@@ -36,8 +36,8 @@ const page = (props: Props) => {
       <main className="relative h-full w-full flex flex-col items-center justify-start">
         <SignInForm />
         <div
-          className={`getAppPopup fixed bottom-8 right-8 h-[11.8rem] w-[22.5rem] flex flex-col items-start justify-center gap-3 bg-[#F1F8FA] p-4 rounded-lg opacity 0 ${
-            showPopUP ? "opacity-100 duration-700" : "opacity-0"
+          className={`getAppPopup fixed bottom-6 right-6 h-[11.8rem] w-[22.5rem] flex flex-col items-start justify-center gap-3 bg-[#F1F8FA] p-4 rounded-lg opacity 0 ${
+            showPopUP ? "opacity-90 duration-700" : "opacity-0"
           } transition-opacity`}
         >
           <div className="w-full flex items-center justify-between pr-2">
@@ -203,4 +203,4 @@ const page = (props: Props) => {
   );
 };
 
-export default page;
+export default Page;

@@ -64,7 +64,7 @@ const SignInForm = (props: Props) => {
 
   return (
     <section className="min-h-[360px] max-h-[772px] w-full flex items-start justify-end pt-10">
-      <div className="h-auto w-[625px] flex flex-col items-start justify-center pl-2">
+      <div className="h-auto w-[500px] xl:w-[625px] flex flex-col items-start justify-center pl-2">
         <div className="w-full flex items-start justify-center -mb-9">
           <h1 className="text-[32px] lg:text-[56px] text-[#b24020] font-extralight leading-[4.3rem]">
             Welcome to your professional community
@@ -161,7 +161,7 @@ const SignInForm = (props: Props) => {
                 </span>
               </div>
             </label>
-            <div className="h-auto w-full flex flex-col items-start justify-start">
+            <div className="h-auto w-full flex flex-col items-start justify-start mt-2 xl:mt-0">
               <a
                 href="https://www.linkedin.com/uas/request-password-reset?trk=homepage-basic_forgot_password"
                 className="flex items-start justify-start text-[#0a66c2] font-semibold"
