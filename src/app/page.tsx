@@ -1,7 +1,7 @@
 "use client";
 
 // React components
-import React from "react";
+import React, { useEffect } from "react";
 import { useRouter } from "next/navigation";
 
 // Components
@@ -10,8 +10,15 @@ import { useAuth } from "@/context/AuthContext";
 type Props = {};
 
 const Page = (props: Props) => {
-  const { logout } = useAuth();
+  const { logout, user } = useAuth();
   const router = useRouter();
+
+  useEffect(() => {
+    if (!user) {
+      router.push("/login");
+    }
+  }, [router, user]);
+
 
   return (
     <main className="h-screen w-screen flex flex-col items-center justify-center gap-12">
