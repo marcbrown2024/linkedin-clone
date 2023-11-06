@@ -19,7 +19,7 @@ const Page = (props: Props) => {
       <p className=" text-lg">
         Words I say don&apos;t always come out right, and they always seem to start a
         fight. I know what I say can hurt you, and believe me, I don&apos;t mean to.
-        "I&apos;m Sorry."
+        "I&apos;m Sorry.
       </p>
       <p>HEHEHEHEHEHEHEEHEHEHEHEHEHEHEHEEHEHEHEHEHEHEHEHEEH</p>
 
