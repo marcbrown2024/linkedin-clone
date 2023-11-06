@@ -33,7 +33,7 @@ const Page = (props: Props) => {
   };
   return (
     <>
-      <main className="relative h-full w-full flex flex-col items-center justify-start">
+      <main className="relative h-auto w-full flex flex-col items-center justify-between">
         <SignInForm />
         <div
           className={`getAppPopup fixed bottom-6 right-6 h-[11.8rem] w-[22.5rem] flex flex-col items-start justify-center gap-3 bg-[#F1F8FA] p-4 rounded-lg opacity 0 ${
@@ -64,37 +64,37 @@ const Page = (props: Props) => {
           </button>
         </div>
         {/* <section className="h-full w-full border border-orange-600">
-            <div>
-              <h1>Explore collaborative articles</h1>
-            </div>
-            <div>
-              <h1>Find the right job or internship for you</h1>
-            </div>
-          </section>
-          <section className="h-full w-full border border-orange-600">
-            <h1>Post your job for millions of people to see</h1>
-          </section>
-          <section className="h-full w-full border border-orange-600">
-            <h1>Discover the best software tools</h1>
-          </section>
-          <section className="h-full w-full border border-orange-600">
-            <h1>Let the right people know you&apos;re open to work</h1>
-          </section>
-          <section className="h-full w-full border border-orange-600">
-            <div>
-              <h1>Connect with people who can help</h1>
-            </div>
-            <div>
-              <h1>Learn the skills you need to succeed</h1>
-            </div>
-          </section>
-          <section className="h-full w-full border border-orange-600">
-            <h1>Who is LinkedIn for?</h1>
-          </section>
-          <section className="h-full w-full border border-orange-600">
-            <h1>Join your colleagues, classmates, and friends on LinkedIn.</h1>
-          </section> */}
-        {/* <footer className="relative h-[80%] w-full flex flex-col items-center justify-center">
+          <div>
+            <h1>Explore collaborative articles</h1>
+          </div>
+          <div>
+            <h1>Find the right job or internship for you</h1>
+          </div>
+        </section>
+        <section className="h-full w-full border border-orange-600">
+          <h1>Post your job for millions of people to see</h1>
+        </section>
+        <section className="h-full w-full border border-orange-600">
+          <h1>Discover the best software tools</h1>
+        </section>
+        <section className="h-full w-full border border-orange-600">
+          <h1>Let the right people know you&apos;re open to work</h1>
+        </section>
+        <section className="h-full w-full border border-orange-600">
+          <div>
+            <h1>Connect with people who can help</h1>
+          </div>
+          <div>
+            <h1>Learn the skills you need to succeed</h1>
+          </div>
+        </section>
+        <section className="h-full w-full border border-orange-600">
+          <h1>Who is LinkedIn for?</h1>
+        </section> */}
+        {/* <section className="h-full w-full border border-orange-600">
+          <h1>Join your colleagues, classmates, and friends on LinkedIn.</h1>
+        </section> */}
+        <footer className="relative h-[80%] w-full flex flex-col items-center justify-center">
           <div className="absolute top-0 -z-50 h-[84%] w-full flex items-start justify-center bg-[#f3f2f0]"></div>
           <div className="h-auto w-[60%] flex items-start justify-center py-6">
             <div className="h-full w-[23.5%]">
@@ -197,7 +197,7 @@ const Page = (props: Props) => {
               </li>
             </ul>
           </div>
-        </footer> */}
+        </footer>
       </main>
     </>
   );

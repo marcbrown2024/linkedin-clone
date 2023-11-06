@@ -27,7 +27,7 @@ export default function RootLayout({
       <body className="">
         <Providers>
           <AuthContextProvider>
-            <div className="h-screen w-screen flex flex-col items-center justify-between">
+            <div className="h-auto w-screen flex flex-col items-center justify-between">
               <TopBar />
               {children}
             </div>

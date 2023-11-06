@@ -63,7 +63,7 @@ const SignInForm = (props: Props) => {
   }, [user, router]);
 
   return (
-    <section className="min-h-[360px] max-h-[772px] w-full flex items-start justify-end pt-10">
+    <section className="max-h-[772px] w-full flex items-start justify-end pt-10">
       <div className="h-auto w-[500px] xl:w-[625px] flex flex-col items-start justify-center pl-2">
         <div className="w-full flex items-start justify-center -mb-9">
           <h1 className="text-[32px] lg:text-[56px] text-[#b24020] font-extralight leading-[4.3rem]">
@@ -243,11 +243,11 @@ const SignInForm = (props: Props) => {
           </div>
         </div>
       </div>
-      <div className="relative h-full w-[47%]">
+      <div className="min-h-[700px] w-[47%] flex items-end justify-start mr-0 xl:mr-2 2xl:mr-0">
         <Image
           src={loginSectionPic}
           alt="left photo"
-          className="absolute top-[5.8rem] -left-[4.3rem] h-[76.5%] mb-4"
+          className="h-full w-full 2xl:w-[77.5%] mb-11 ml-2"
         ></Image>
       </div>
     </section>

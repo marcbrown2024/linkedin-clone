@@ -17,9 +17,9 @@ const Page = (props: Props) => {
     <main className="h-screen w-screen flex flex-col items-center justify-center gap-12">
       <h1 className="text-7xl">I LOVE YOU BABY !!</h1>
       <p className=" text-lg">
-        Words I say don't always come out right, and they always seem to start a
-        fight. I know what I say can hurt you, and believe me, I don't mean to.
-        "I'm Sorry."
+        Words I say don&apos;t always come out right, and they always seem to start a
+        fight. I know what I say can hurt you, and believe me, I don&apos;t mean to.
+        "I&apos;m Sorry."
       </p>
       <p>HEHEHEHEHEHEHEEHEHEHEHEHEHEHEHEEHEHEHEHEHEHEHEHEEH</p>
 

@@ -25,7 +25,7 @@ const TopBar = (props: Props) => {
 
   return (
     <div className="h-20 w-screen flex items-center justify-center xl:pl-9 2xl:pl-0">
-      <div className="h-full w-full xl:w-[85%] 2xl:w-[58.9%] flex items-center justify-between pl-3 xl:pl-0 pr-1 xl:pr-0">
+      <div className="h-full w-full xl:w-[85%] 2xl:w-[58.9%] flex items-center justify-between pl-3 xl:pl-0 pr-4 xl:pr-0">
         <a
           href="/login"
           className="h-[2.3rem] w-[44%] flex items-center justify-start"
