@@ -12,7 +12,7 @@ const LearningSvg = (props: Props) => {
       <div className="h-full w-[45%] flex items-center justify-center text-[#000000a3] group-hover:text-[#000]">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 28 20"
+          viewBox="0 0 30 20"
           fill="none"
         >
           <path
